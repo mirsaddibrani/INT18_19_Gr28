@@ -2,162 +2,36 @@
     <head>
         <title>Sh.M.U."Adem Jashari"
         </title>
-        <style>
-            .clasa{
-                
-            }
-            a{
-                color: whitesmoke;
-            }           
-            .item3 { grid-area: main; }
-            .item4 { grid-area: right;}
-            .item5 { grid-area: footer; }
-            .grid-container {
-              margin: 0;             
-              color: #1a1a1a;
-              display: inline-table;
-              display: grid;
-              grid-template-areas:
-
-                'main main main main right right'
-
-                'footer footer footer footer right right';
-              grid-gap: 10px;
-              
-              padding: 0px;
-            }
-            .grid-container1 {
-                 padding: 4px;
-                margin: 0;
-                background-color: #1a1a1a;
-                display: grid;
-                grid-template-columns: auto auto;
-                grid-gap: 10px ;
-                background-color: #1a1a1a;
-                padding: 15px ;
-                }
-            .grid-container1 > div {
-                color: wheat;
-                background-color: #1a1a1a;
-                border: 1px ;
-                text-align: center;
-                font-size: 30px;
-}
-            .grid-container > div {
-              color: #1a1a1a;
-              text-align: center;
-              padding: 15px ;
-              font-size: 30px;
-}
-            a:hover{
-                color: yellow;
-            }
-            header{
-                margin-bottom: 0;
-                padding-bottom: 0;
-            }
-            table{
-                background-color: #1a1a1a;
-                position: relative;
-                top: 0;
-            }
-            body{
-                background-color: black;
-                margin: 0
-            }
-            p{
-                color: grey;
-            }
-           .rreth{
-            border-radius: 50%;
-          
-            }
-            .hapsire{
-                align-content: center;
-                padding-left: 19px;
-                padding-right: 19px;
-            }
-            .tre{
-                
-                text-align: center;
-                background-color: #333333;                
-                border-radius: 25px 25px 0 0;
-                border: 2px solid #595959;
-                padding: 5px;
-                margin: 2% 8% 0 8%;
-                width: 85%                
-            }
-            .fundi{
-                background-color: #333333;
-                text-align: right;
-                border-radius: 0 0 25px 25px ;
-                border: 2px solid #595959;
-                padding: 4px;
-                margin: 0 8% 0 8%;
-                width: 85%
-            }           
-            h2{
-                display: inline;
-                padding: 1em 1em 1em 1em;
-            }
-            .dajt{
-                background-color: black;
-            }
-            .goat{
-                
-                background-color: #333333;
-                border: 2px solid;
-                margin: 0 0 0 0;              
-                padding: 3% 3% 5% 3%;
-            }
-            
-            h1{
-                border-top: 10px;
-               margin-top: 15%;
-                margin-left: 1%;
-                margin-bottom: 75%;
-                padding: 15px;
-                color: grey;
-                display: inline;
-            }
-            .kresha{
-                align-content: center;
-            }
-            h3{
-                margin-top: 0.5%;
-                margin-right: 2%;
-                color: grey;
-                float: right;
-                display: inline;
-                font-style: italic;
-            }
-            table{
-                display: inline-block;
-                align-content: center;
-                
-            }
-            
-        </style>
+        <link rel="stylesheet" href="formatizimi.css">
+        
     </head>
     <body><br>
          
        <h1>Sh.m.u. "Adem Jashari"</h1><h3>Jemi te paret dhe me te miret</h3>
-        <div class="tre"><h2 id="HOMEPAGE"><a href="#">Kryefaqja</a></h2>
+       <div class="tre"><h2 id="HOMEPAGE"><a href="#">Kryefaqja</a></h2>
             <h2 id="Historiku"><a href="css4.html">Historiku</a></h2>
+            <div class="dropdown">
+                <button class="dropbtn"><h2>Stafi</h2></button>
+            <div class="dropdown-content">
+            <a href="#">Mesuesit</a>
+            <a href="#">sherbimi</a>
+            <a href="#">Administrata</a>
+            </div>
+            </div>
             <h2 id="Foto"><a href="#">Foto</a></h2>
         </div>
             <div class="goat">
                 <div class="grid-container">
                     <div class="item3"> 
                         <div class="grid-container1 dajt" >
-                            <div ><img class="rreth" src="recycle.png" width="20" height="20" alt="ska foto"><Strong><big>Pastrimi i Ambientit></big></strong><br>
+                            <div ><img class="rreth" src="recycle.png" width="20" height="20" alt="ska foto"><Strong>Pastrimi i Ambientit></strong><br>
                             Me mbeshtetje te USAID kemi
                             pastruar rrethine e shkolles
                             Perveq nxenesve dhe stafit akademik
                            
                             <a href="#">Per me shume</a>
                             </div>
-                            <div><img class="rreth" src="music.png" width="20" height="20"><Strong><big>Recitali</big></Strong><br>
+                            <div><img class="rreth" src="music.png" width="20" height="20"><Strong>Recitali</Strong><br>
                             Ne fund te vitit u mbajt recitali
                             i zakonshem vjetor
                             <a href="#">Per me shume</a>
@@ -174,11 +48,11 @@
                         </div>
                     </div>
                         <div class="item4">
-                            <img class="majta" src="foto1.jpg" width="260" height="260" alt="skafoto"><br>
-                        <img class="kresha" src="foto1.jpg" width="125" height="125" alt="ska foto">
-                        <img class="kresha" src="foto1.jpg" width="125" height="125" alt="ska foto"><br>
-                        <img class="kresha" src="foto1.jpg" width="125" height="125" alt="ska foto">
-                        <img class="kresha" src="foto1.jpg" width="125" height="125" alt="ska foto">
+                            <img class="majta" src="foto4.jpg" width="260" height="260" alt="skafoto"><br>
+                        <img class="kresha" src="foto5.jpg" width="125" height="125" alt="ska foto">
+                        <img class="kresha" src="foto6.jpg" width="125" height="125" alt="ska foto"><br>
+                        <img class="kresha" src="foto7.jpg" width="125" height="125" alt="ska foto">
+                        <img class="kresha" src="foto8.jpg" width="125" height="125" alt="ska foto">
                     
                         </div>
                     
