@@ -3,10 +3,52 @@
         <title>Sh.M.U."Adem Jashari"
         </title>
         <style>
-            a{
-                color: whitesmoke;
+            .clasa{
                 
             }
+            a{
+                color: whitesmoke;
+            }           
+            .item3 { grid-area: main; }
+            .item4 { grid-area: right;}
+            .item5 { grid-area: footer; }
+            .grid-container {
+              margin: 0;             
+              color: #1a1a1a;
+              display: inline-table;
+              display: grid;
+              grid-template-areas:
+
+                'main main main main right right'
+
+                'footer footer footer footer right right';
+              grid-gap: 10px;
+              
+              padding: 0px;
+            }
+            .grid-container1 {
+                 padding: 4px;
+                margin: 0;
+                background-color: #1a1a1a;
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-gap: 10px ;
+                background-color: #1a1a1a;
+                padding: 15px ;
+                }
+            .grid-container1 > div {
+                color: wheat;
+                background-color: #1a1a1a;
+                border: 1px ;
+                text-align: center;
+                font-size: 30px;
+}
+            .grid-container > div {
+              color: #1a1a1a;
+              text-align: center;
+              padding: 15px ;
+              font-size: 30px;
+}
             a:hover{
                 color: yellow;
             }
@@ -16,6 +58,8 @@
             }
             table{
                 background-color: #1a1a1a;
+                position: relative;
+                top: 0;
             }
             body{
                 background-color: black;
@@ -40,15 +84,9 @@
                 border-radius: 25px 25px 0 0;
                 border: 2px solid #595959;
                 padding: 5px;
-                margin: 0 8% 0 8%;
+                margin: 2% 8% 0 8%;
                 width: 85%                
             }
-            span{
-                margin-left: 3%;
-                border: 10px;
-                border-color: black;
-            }                
-            
             .fundi{
                 background-color: #333333;
                 text-align: right;
@@ -57,29 +95,33 @@
                 padding: 4px;
                 margin: 0 8% 0 8%;
                 width: 85%
-            }
-            
-           
+            }           
             h2{
                 display: inline;
                 padding: 1em 1em 1em 1em;
+            }
+            .dajt{
+                background-color: black;
             }
             .goat{
                 
                 background-color: #333333;
                 border: 2px solid;
                 margin: 0 0 0 0;              
-                padding: 3% 3% 3% 3%;
+                padding: 3% 3% 5% 3%;
             }
-            .majta{
-                padding: 0;
-            }
+            
             h1{
-               
+                border-top: 10px;
+               margin-top: 15%;
                 margin-left: 1%;
+                margin-bottom: 75%;
                 padding: 15px;
                 color: grey;
                 display: inline;
+            }
+            .kresha{
+                align-content: center;
             }
             h3{
                 margin-top: 0.5%;
@@ -90,57 +132,69 @@
                 font-style: italic;
             }
             table{
-                display: inline-table;
+                display: inline-block;
+                align-content: center;
+                
             }
             
         </style>
     </head>
-    <body>
+    <body><br>
          
        <h1>Sh.m.u. "Adem Jashari"</h1><h3>Jemi te paret dhe me te miret</h3>
         <div class="tre"><h2 id="HOMEPAGE"><a href="#">Kryefaqja</a></h2>
-            <h2 id="Historiku"><a href="#">Historiku</a></h2>
-            <h2 id="Foto"><a href="#">Foto</a></h2></div>
+            <h2 id="Historiku"><a href="css4.html">Historiku</a></h2>
+            <h2 id="Foto"><a href="#">Foto</a></h2>
+        </div>
             <div class="goat">
-                <table cellspacing="40">
-                <tr>
-                    <td><p><img class="rreth" src="recycle.png" width="20" height="20"><Strong><big><big>Pastrimi i Ambientit</big></big></strong><br>
+                <div class="grid-container">
+                    <div class="item3"> 
+                        <div class="grid-container1 dajt" >
+                            <div ><img class="rreth" src="recycle.png" width="20" height="20" alt="ska foto"><Strong><big>Pastrimi i Ambientit></big></strong><br>
                             Me mbeshtetje te USAID kemi
-                            pastruar rrethine e shkolles<br>
+                            pastruar rrethine e shkolles
                             Perveq nxenesve dhe stafit akademik
-                            benin pjes edhe qytetare te<br>shumte
-                            dhe prinder qe donin te sherbenin komunitetit<br>
-                            <a href="#">Per me shume</a></p></td>
-                    <td><p><img class="rreth" src="music.png" width="20" height="20"><Strong><big>Recitali</big></Strong><br>
-                        Ne fund te vitit u mbajt recitali
-                        i zakonshem<br> vjetor<br>
-                        <a href="#">Per me shume</a></p></td>
-                </tr>
-                <tr>
-                    <td><p><img class="rreth" src="charity.png" width="20" height="20"><strong><big>Veprimtari Bamirse</big></strong><br>
+                           
+                            <a href="#">Per me shume</a>
+                            </div>
+                            <div><img class="rreth" src="music.png" width="20" height="20"><Strong><big>Recitali</big></Strong><br>
+                            Ne fund te vitit u mbajt recitali
+                            i zakonshem vjetor
+                            <a href="#">Per me shume</a>
+                            </div>
+               
+                            <div><img class="rreth" src="charity.png" width="20" height="20"><strong><big>Veprimtari Bamirse</big></strong><br>
                             Nxenesit kane shitur biskota
-                            dhe parat e mledhura i kane<br>
-                            perdorur per bamirsi<br>
-                            <a href="#">Per me shume</a></p></td>
-                    <td>gjfm,d</td>
-                </tr></table>
-                <table>
-                    <tr>
-                        <td>
-                            <img class="majta" src="foto1.jpg" width="260" height="260" alt="skafoto">
-                        </td>
-                    </tr>
-                </table>
-                
-                <br><span>
+                            dhe parat e mledhura i kane
+                            perdorur per bamirsi
+                            <a href="#">Per me shume</a>
+                            </div>
+                            <div>Koncerti i 28 Nentorit
+                            </div>
+                        </div>
+                    </div>
+                        <div class="item4">
+                            <img class="majta" src="foto1.jpg" width="260" height="260" alt="skafoto"><br>
+                        <img class="kresha" src="foto1.jpg" width="125" height="125" alt="ska foto">
+                        <img class="kresha" src="foto1.jpg" width="125" height="125" alt="ska foto"><br>
+                        <img class="kresha" src="foto1.jpg" width="125" height="125" alt="ska foto">
+                        <img class="kresha" src="foto1.jpg" width="125" height="125" alt="ska foto">
+                    
+                        </div>
+                    
+                 
+       
+               
+                <div class="item5"> 
+                   
                 <img class="hapsire" src="foto1.jpg" width="200" height="130" alt="ska foto">
                 <img class="hapsire" src="foto2.jpg" width="200" height="130" alt="ska foto">
-                <img class="hapsire" src="foto3.jpg" width="200" height="130" alt="ska foto"></span>
-            </div>
+                <img class="hapsire" src="foto3.jpg" width="200" height="130" alt="ska foto"></div>
+                </div></div>
                 
             
        <div class="fundi"><p><a href="#">Rikthehuni ne fillim</a></p></div>
-        
+           
         
     </body>
 </html>
