@@ -172,4 +172,11 @@
                 text-decoration: none;
                     
             }
+			#imazhi
+            {
+                float: left;
+                width: 250px; 
+                height: 300px; 
+                margin-left: 8.7%;
+                border: solid grey 6px;
             
