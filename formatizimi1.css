@@ -1,59 +1,81 @@
-
-
-
-            
             .radio{
-                width: 100%;
-                background-color: black;
-                position:fixed;
-                display:inline-block;
-                margin: 0 0 0 0;
+                            width: 100%;
+                            background-color: black;
+                            position:fixed;
+                            display:inline-block;
+                            margin: 0 0 0 0;
+                        }
+            body {
+              font-family: Arial;
+              margin: 0;
+            }
+            * {
+              box-sizing: border-box;
+            }
+            img {
+              vertical-align: middle;
+            }
+            .container {
+    align-content: center;
+ 
+}
+            .mySlides {
+              display: none;
+              margin: 0 20% 0 20%;
+            }
+            .prev,
+            .next {
+                cursor: pointer;
+                position: absolute;
+                top: 90%;
+                width: auto;
+                padding: 16px;
+                margin-top: -50px;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                -webkit-user-select: none;}
+            .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+              }
+            .cursor {
+              cursor: pointer;
+            }
+            .numbertext {
+              color: #f2f2f2;
+              font-size: 12px;
+              padding: 8px 12px;
+
+              top: 0;
+            }
+            .caption-container {
+              text-align: center;
+              background-color: #222;
+              padding: 2px 16px;
+              color: white;
+            }
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            .column {
+              float: left;
+              width: 16.66%;
+            }
+            .demo {
+              opacity: 0.6;
+            }
+            .active,
+            .demo:hover {
+              opacity: 1;
             }
             a{
                 color: whitesmoke;
             }           
-            .item3 { grid-area: main; }
-            .item4 { grid-area: right;}
-            .item5 { grid-area: footer; }
-            .grid-container {
-              margin: 0;             
-              color: #1a1a1a;
-              display: inline-table;
-              display: grid;
-              grid-template-areas:
-
-                'main main main main right right'
-
-                'footer footer footer footer right right';
-              grid-gap: 10px;
-              
-              padding: 0px;
-            }
-           .grid-container1 {
-                
-                margin: 0;
-                
-                display: grid;
-                grid-template-columns: auto auto;
-                grid-gap: 10px;
-                border: 5px;
-                padding: 10px;
-                background-color: #1a1a1a;
-               
-                }
-            .grid-container1 > div {
-                color: wheat;
-                background-color: #1a1a1a;
-                
-                text-align: center;
-                font-size: 30px;
-}
-            .grid-container > div {
-              color: #1a1a1a;
-              text-align: center;
-              padding: 15px ;
-              font-size: 30px;
-}
             a:hover{
                 color: yellow;
             }
@@ -101,10 +123,6 @@
             p{
                 color: grey;
             }
-           .rreth{
-            border-radius: 50%;
-          
-            }
             .hapsire{
                 align-content: center;
                 padding-left: 19px;
@@ -134,7 +152,6 @@
                 padding: 1em 1em 1em 1em;
                 text-decoration: underline;
             }
-            
             .goat{
                 
                 background-color: #333333;
@@ -155,6 +172,7 @@
                 align-content: center;
             }
             h3{
+                
                 margin-top: 0.5%;
                 margin-right: 2%;
                 color: grey;
@@ -162,32 +180,13 @@
                 display: inline;
                 font-style: italic;
             }
-            table{
-                display: inline-block;
-                align-content: center;
-                
-            }
+            
+            
             .rast{
                 color: grey;
                 text-decoration: none;
+               font-family: "Times New Roman", Times, serif; 
                     
             }
-			#imazhi
-            {
-                float: left;
-                width: 250px; 
-                height: 300px; 
-                margin-left: 8.7%;
-                border: solid grey 6px;
-			}
-			#pHistoriku 
-            {
-                
-                color: white;
-                font-size: 16px;
-                font-family: "Courier New", Courier, monospace;
-                margin-top: 35px;
-                margin-right: 6.6%;
-                font-style: italic;
-				}
+            
             
