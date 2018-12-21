@@ -174,20 +174,21 @@
             }
 			#imazhi
             {
+               
                 float: left;
                 width: 250px; 
                 height: 300px; 
                 margin-left: 8.7%;
-                border: solid grey 6px;
+                border: solid darkolivegreen 6px;
 			}
 			#pHistoriku 
             {
-                
+                background-color: grey;
                 color: white;
-                font-size: 16px;
-                font-family: "Courier New", Courier, monospace;
+                font-size: 19px;
+                font-family: sans-serif, helvetica, "times new roman";
                 margin-top: 35px;
                 margin-right: 6.6%;
-                font-style: italic;
+                
 				}
             
