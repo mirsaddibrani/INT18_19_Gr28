@@ -111,10 +111,26 @@
             border-radius: 50%;
           
             }
+            div{
+                display: inline-block;
+            }
+            .dubai{
+                margin-left: 20%;
+                align-content: center;
+            }
+            .kairo{
+                margin-left:20%;
+                margin-top: 0;            }
             .hapsire{
                 align-content: center;
                 padding-left: 19px;
                 padding-right: 19px;
+            }
+            .jeta{
+                margin-left: 10%;
+                margin-right: 75%;
+                padding-left: 0;
+                border-left: 0;
             }
             .tre{
                 
@@ -140,6 +156,14 @@
                 padding: 1em 1em 1em 1em;
                 text-decoration: underline;
             }
+            .perdore{
+                text-decoration: underline grey ;
+                color:gray;
+                
+            }
+            .rinia{
+                background-image: url("albania.png");
+            }
             
             .goat{
                 
@@ -160,7 +184,7 @@
             .kresha{
                 align-content: center;
             }
-            h3{
+            .veq{
                 margin-top: 0.5%;
                 margin-right: 2%;
                 color: grey;
@@ -168,6 +192,7 @@
                 display: inline;
                 font-style: italic;
             }
+            
             table{
                 display: inline-block;
                 align-content: center;
@@ -178,7 +203,7 @@
                 text-decoration: none;
                     
             }
-			#imazhi
+            #imazhi
             {
                
                 float: left;
@@ -186,8 +211,8 @@
                 height: 300px; 
                 margin-left: 8.7%;
                 border: solid darkolivegreen 6px;
-			}
-			#pHistoriku 
+            }
+            #pHistoriku 
             {
                 background-color: grey;
                 color: white;
@@ -196,5 +221,5 @@
                 margin-top: 35px;
                 margin-right: 6.6%;
                 
-				}
+            }
             
