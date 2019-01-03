@@ -164,6 +164,11 @@
             .rinia{
                 background-image: url("albania.png");
             }
+            .pleqeria{
+                background-image: url("Biscuits.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 150%;
+            }
             
             .goat{
                 
