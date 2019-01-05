@@ -257,3 +257,11 @@
                 margin-bottom: 0.1%;
                 
             }
+            .radio1{
+                width: 100%;
+                background-color: black;
+                position:static;
+                display:inline-block;
+                margin: 0 0 0 0;
+                
+            }
