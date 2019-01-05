@@ -236,3 +236,22 @@
                 margin: 0 0 0 0;              
                 padding: 3% 3% 5% 3%;
             }
+            .imazhi2
+            {
+               
+                float: left;
+                margin-left: 8.7%;
+                border: solid #cccccc 6px;
+            }
+            .marginat
+            {
+                background-color: grey;
+                color: white;
+                font-size: 19px;
+                font-family: sans-serif, helvetica, "times new roman";
+                margin-left: 8%;
+                margin-right: 6%;
+                margin-top: 0.1%;
+                margin-bottom: 0.1%;
+                
+            }
