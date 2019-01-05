@@ -18,6 +18,12 @@
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
             }
+            .resa{
+                background-image: url("kids.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 170%;
+                
+            }
             .item3 { grid-area: main; }
             .item4 { grid-area: right;}
             .item5 { grid-area: footer; }
