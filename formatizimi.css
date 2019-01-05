@@ -175,7 +175,10 @@
                 
                 background-color: #333333;
                 border: 2px solid;
-                margin: 0 0 0 0;              
+                margin-left: 8%;
+                margin-right: 6%;
+                margin-top: 0.1%;
+                margin-bottom: 0.1%;              
                 padding: 3% 3% 5% 3%;
             }
             h1{
