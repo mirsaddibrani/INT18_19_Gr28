@@ -5,10 +5,10 @@
         <link rel="stylesheet" href="formatizimi.css">
         
     </head>
-    <body>
+    <body onload="startTime()">
         <div class="radio"><br>
          
-            <h1>Sh.m.u. "Adem Jashari"</h1><h3 class="veq">Jemi te paret dhe me te miret</h3>
+            <h1>Sh.m.u. "Adem Jashari"</h1><div id="ora" style="color:grey;margin-left: 15%"></div><h3 class="veq">Jemi te paret dhe me te miret</h3>
        <div class="tre"><h2 id="HOMEPAGE"><a href="kryefaqja.html">Kryefaqja</a></h2>
             <h2 id="Historiku"><a href="css4.html">Historiku</a></h2>
             <div class="dropdown">
@@ -116,9 +116,30 @@
             <h4><img src="twitter.png" alt="in"/><a href="https://www.flickr.com/" target="blank"><big>Flickr</big></a></h4>
         </div><br><br>
         
-       <p class="jeta">
+        <div class="jeta" style="color:gray;display: inline-block;" >
            <em> Te gjitha te drejtat e rezervuara</em>
-       </p>      
+           
+       </div>  
+       
+       <script>
+            function startTime() {
+              var today = new Date();
+              var o = today.getHours();
+              var m = today.getMinutes();
+              var s = today.getSeconds();
+              o = checkTime(o);
+              m = checkTime(m);
+              s = checkTime(s);
+              document.getElementById('ora').innerHTML =
+              o + ":" + m + ":" + s;
+              var t = setTimeout(startTime, 500);
+            }
+            function checkTime(i) {
+              if ( i < 10) {i = "0" + i;}  // add zero in front of numbers < 10
+              return i;
+            }
+           
+       </script> 
         
     </body>
 </html>
