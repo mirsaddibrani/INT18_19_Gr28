@@ -146,7 +146,7 @@
                 border-radius: 25px 25px 0 0;
                 border: 2px solid #595959;
                 padding: 5px;
-                margin: 2% 8% 0 8%;
+                margin: 0% 0% 0 8%;
                 width: 85%                
             }
             .fundi{
@@ -155,7 +155,7 @@
                 border-radius: 0 0 25px 25px ;
                 border: 2px solid #595959;
                 padding: 5px;
-                margin: 0 8% 0 8%;
+                margin: 0 0% 0 8%;
                 width: 85%
             }           
             h2{
@@ -181,12 +181,12 @@
                 
                 background-color: #333333;
                 border: 2px solid;
-                margin: 0 0 0 0;              
+                margin: 9% 0 0 0;              
                 padding: 3% 3% 5% 3%;
             }
             h1{
                 border-top: 10px;
-               margin-top: 15%;
+                margin-top: 10%;
                 margin-left: 1%;
                 margin-bottom: 75%;
                 padding: 15px;
@@ -224,6 +224,13 @@
                 margin-left: 8.7%;
                 border: solid darkolivegreen 6px;
             }
+            .topi{
+                margin-top: 9%;
+            }
+            .kami{
+                margin-left: 10%;
+                height: 30px;
+            }
             #pHistoriku 
             {
                 background-color: grey;
@@ -232,7 +239,7 @@
                 font-family: sans-serif, helvetica, "times new roman";
                 margin-left: 8%;
                 margin-right: 5.9%;
-                margin-top: 0.1%;
+                margin-top: 9%;
                 margin-bottom: 0.1%;
                 
             }
@@ -265,7 +272,7 @@
             .radio1{
                 width: 100%;
                 background-color: black;
-                position:static;
+                position: fixed;
                 display:inline-block;
                 margin: 0 0 0 0;
                 
