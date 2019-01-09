@@ -176,8 +176,13 @@
                 background-repeat: no-repeat;
                 background-size: 100% 150%;
             }
+            .bt1{
+                margin-left: 50%;
+                margin-right: 50%;
+                    
+            }
             
-            .goat{
+          .goat{
                 
                 background-color: #333333;
                 border: 2px solid;
