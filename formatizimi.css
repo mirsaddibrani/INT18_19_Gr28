@@ -128,6 +128,14 @@
                 margin-left:20%;
                 margin-top: 0;    
             }
+            #radio1 {
+                width: 100%;
+                background-color: black;
+                position: fixed;
+                display:inline-block;
+                margin: 0 0 0 0;
+                
+              }
             .hapsire{
                 align-content: center;
                 padding-left: 19px;

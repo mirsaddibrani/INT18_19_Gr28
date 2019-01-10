@@ -3,7 +3,7 @@
         <title>Sh.M.U."Adem Jashari"
         </title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
-        <script src="jquery-3.2.1.min.js"></script>
+       <!-- <script src="jquery-3.2.1.min.js"></script>   -->
         
         <link rel="stylesheet" href="formatizimi.css">
         <script>
@@ -15,31 +15,42 @@
               $("form").show(1000);
             });
           });
-       /*     function getStylesheet(){
-                var currentTime = new getDate().getHours();
-                if(0<=currentTime&&currentTime<5){
-                    document.write("<link rel='stylesheet' href='CSS/night.css'");
-                }
-                else if(5<=currentTime&&currentTime<12){
-                    document.write("<link rel='stylesheet' href='CSS/morning.css'");
-                }
-                else if(12<=currentTime&&currentTime<20){
-                  var CSS= document.createElement("style");
-                  CSS.type="text/css";
-                  CSS.innerHTML="{ background-color: #3FFFF3}";
-                  document.body.appendChild(CSS);
+          sessionstorage.clickcount = 0;
+          function clickCounter(){
+          if (typeof(Storage) !== "undefined") {
+            if (sessionStorage.clickcount) {
+              sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+              alert("ju tashme jeni regjistruar")
+            } else {
+              sessionStorage.clickcount = 1;
+              alert("jeni Regjistruar me sukses")
+            }
+        }}
+          
+           function getStylesheet(){
+               var d = new Date();
+                var n = d.getHours();
                 
+                      
+           
+               
+                if(0<=n&&n<8){
+                     document.body.style.backgroundColor = "black";
                 }
-                else{
-                    document.write("<link rel='stylesheet' href='formatizimi.css'");
+                else if(8<=n&&n<20){
+                     document.body.style.backgroundColor = "white";
                 }
+                else 
+                     document.body.style.backgroundColor = "red";
+                
+                
                 
                 getStylesheet();
-            }*/
+           }
             </script>
     </head>
-    <body onload="startTime()">
-        <div class="radio1"><br>
+    <body onload="startTime();getStylesheet()">
+        <div id="radio1"><br>
          
             <h1>Sh.m.u. "Adem Jashari"</h1><div id="ora" style="color:grey;margin-left: 15%"></div><h3 class="veq">Jemi te paret dhe me te miret</h3>
        <div class="tre"><h2 id="HOMEPAGE"><a href="kryefaqja.html">Kryefaqja</a></h2>
@@ -58,7 +69,7 @@
                 <div class="grid-container">
                     <div class="item3"> 
                         <div class="grid-container1 " >
-                            <div ><img class="rreth" src="recycle.png" width="20" height="20" alt="recycle"><Strong>Pastrimi i Ambientit></strong><br>
+                            <div ><img class="rreth" src="recycle.png" width="20" height="20" alt="recycle"><Strong>Pastrimi i Ambientit</strong><br>
                             Me mbeshtetje te USAID kemi
                             pastruar rrethine e shkolles
                             Perveq nxenesve dhe stafit akademik<br>
@@ -130,8 +141,7 @@
             <br>
             <textarea name="description" rows="4" cols="39"></textarea>
             <br><br>
-            <input type ="submit"  value="Submit"/>
-            <input type="Submit" value="Reset"/>
+            <input onclick="clickCounter()" type ="submit"  value="Regjistrohu"/>
             </form>
         
         <div class="dubai">
